@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.free-txt {
+    margin-bottom: 1em;
+}
+
+.container {
+    padding: 32px;
+    margin-bottom: 2em;
+}
+
+.portrait {
+    margin-bottom: 3em;
+    display: block;
+}
+
+.right {
+    float: left;
+    width: 50%;
+    background: red;
+}
+
+.left {
+    float: right;
+    width: 50%;
+    background: blue;
+}
