@@ -3,6 +3,23 @@
     font-family: sans-serif;
 }
 
+body {
+    background: gray;
+}
+
+.content {
+    max-width: 768px;
+    margin: 0 auto;
+    background: white;
+}
+
+.jelly-head {
+    background-image: url(https://kids.nationalgeographic.com/content/dam/kids/photos/animals/Invertebrates/H-P/jellyfish-yellow.ngsversion.1463752708878.adapt.1900.1.jpg);
+    background-size: 100%;
+    background-position: cover;
+    padding: 32px;
+}
+
 h1 {
     font-size: 46px;
 }
@@ -16,12 +33,16 @@ h3 {
 }
 
 .free-txt {
-    margin-bottom: 1em;
+    margin-bottom: 0.6em;
 }
 
 .container {
     padding: 32px;
     margin-bottom: 2em;
+}
+
+.white {
+    color: white;
 }
 
 .portrait {
