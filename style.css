@@ -53,11 +53,16 @@ h3 {
 .right {
     float: left;
     width: 50%;
-    background: red;
+    /* background: red; */
+    padding-right: 2em;
 }
 
 .left {
     float: right;
     width: 50%;
-    background: blue;
+    /* background: blue; */
+}
+
+.clear {
+    clear: both;
 }
