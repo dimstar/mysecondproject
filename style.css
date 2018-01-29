@@ -1,16 +1,51 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
+    outline: 0;
 }
 
 body {
     background: gray;
+    min-height: 100vh;
 }
 
 .content {
     max-width: 768px;
     margin: 0 auto;
     background: white;
+}
+
+#main {
+    min-height: 100vh;
+    padding: 3em 0 4em;
+}
+
+#footerWrapper {
+    background-color: #230022;
+    color: white;
+}
+
+#footerWrapper .container {
+    margin: 0;
+}
+
+#main .container:last-child {
+    margin-bottom: 0;
+}
+
+.section {
+    width: 33.33%;
+    float: left;
+    padding: 2em;
+    margin: 0;
+}
+
+.tertiary-header .section {
+    background-color: #666
+}
+
+.tertiary-header .section.lght-bg {
+    background-color: #888;
 }
 
 .jelly-head {
@@ -62,7 +97,15 @@ h3 {
     width: 50%;
     /* background: blue; */
 }
-
-.clear {
+/* Clearfix hack always goes on PARENT!!  */
+.container::after,
+.tertiary-header::after
+/*.im-blue::after*/ {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
     clear: both;
+    height: 0;
 }
+

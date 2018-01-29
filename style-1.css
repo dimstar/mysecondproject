@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: 1px solid green;
+}
+
+#box {
+    background-color: #1e5792;
+    width: 400px;
+    height: 440px;
+    margin: 10px 30px 20px 50px;
+    color: white;
+    padding: 25px 10px 30px 20px;
+    border-style: solid;
+    border-width: 22px;
+    border-color: #113152;
+}
+
+.im-blue {
+    width: 100%;
+    background-color: #6ea3da;
+    padding: 2em;
+}
+
+.floaty {
+    float: left;
+    padding: 20%;
+    background-color: white;
+    transform: translateY(-50%);
+    margin-right: 2em;
+    border: 2px dotted green;
+}
